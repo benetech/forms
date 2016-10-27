@@ -1,0 +1,1 @@
+(function(a){a(function(c){var d,b;d=c("./timeout");b=c("./delay");return{timeout:d,delay:b}})})(typeof define==="function"&&define.amd?define:function(a){module.exports=a(require)});

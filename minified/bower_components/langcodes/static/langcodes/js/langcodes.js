@@ -1,0 +1,1 @@
+jQuery.prototype.langcodes=function(){return this.autocomplete({source:function(b,a){$.ajax({url:"/langcodes/langs.json",data:b,dataType:"json",success:function(c){a($.map(c,function(d){return{label:d.code+" ("+d.name+") ",value:d.code}}))}})},minLength:0})};

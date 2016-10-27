@@ -1,0 +1,1 @@
+(function(a){a(function(){return function b(f,e){var d=0;return function(g){g=c(f,g);if(d===0&&g.length===0){return}try{e(g)}finally{d=g.length}}};function c(g,e){var d,h,f;f=[];for(d in e){h=e[d];if(h.rejectedAt){f.push(g(h))}}return f}})}(typeof define==="function"&&define.amd?define:function(a){module.exports=a()}));

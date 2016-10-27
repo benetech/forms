@@ -1,0 +1,1 @@
+var parse=require("../"),test=require("tape");test("parse with modifier functions",function(e){e.plan(1);var r=parse(["-b","123"],{"boolean":"b"});e.deepEqual(r,{b:!0,_:["123"]})});

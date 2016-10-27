@@ -1,0 +1,1 @@
+define(function(){function a(b,c){return{get:function(){var d=b();if(d==null){return}if(d){delete this.get;return}return(this.get=c).apply(this,arguments)}}}return a});

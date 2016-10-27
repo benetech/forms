@@ -1,0 +1,1 @@
+(function(a){a(function(){return function(b,c){return function(d){b(d);c(d)}}})}(typeof define==="function"&&define.amd?define:function(a){module.exports=a()}));

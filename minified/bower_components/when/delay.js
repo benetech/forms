@@ -1,0 +1,1 @@
+(function(a){a(function(f){var b,c,i,h;b=f("./when");i=f;try{h=i("vertx").setTimer;c=function(j,e){return h(e,j)}}catch(g){c=setTimeout}return function d(k,j){if(typeof j==="number"){var e=j;j=k;k=e}return b.promise(function(n,m,l){b(j,function(o){c(function(){n(o)},k)},m,l)})}})})(typeof define==="function"&&define.amd?define:function(a){module.exports=a(require)});

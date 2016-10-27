@@ -1,0 +1,1 @@
+(function(a){a(function(c){var b,e;b=c("../when");e=c("../unfold");return function d(i,j,h){var g=[];return e(i,j,f,h)["yield"](g);function f(k,l){g.push(k);return l}}})})(typeof define==="function"&&define.amd?define:function(a){module.exports=a(require)});

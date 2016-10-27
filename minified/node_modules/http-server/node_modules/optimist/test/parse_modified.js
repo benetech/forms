@@ -1,0 +1,1 @@
+function fix(e){return delete e.$0,e}var optimist=require("../"),test=require("tap").test;test("parse with modifier functions",function(e){e.plan(1);var t=optimist()["boolean"]("b").parse(["-b","123"]);e.deepEqual(fix(t),{b:!0,_:["123"]})});

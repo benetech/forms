@@ -1,0 +1,1 @@
+(function(a){a(function(d){var b,e;b=d("./when");e=Array.prototype.slice;return function c(g){var f=function(i,h){f=function(j,k){return k(j)};return h.apply(null,i)};return b.all(e.call(arguments,1)).then(function(h){return b.reduce(g,function(i,j){return f(i,j)},h)})}})})(typeof define==="function"&&define.amd?define:function(a){module.exports=a(require)});

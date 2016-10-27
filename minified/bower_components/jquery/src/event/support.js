@@ -1,0 +1,1 @@
+define(["../var/support"],function(a){(function(){var c,b,d=document.createElement("div");for(c in {submit:true,change:true,focusin:true}){b="on"+c;if(!(a[c+"Bubbles"]=b in window)){d.setAttribute(b,"t");a[c+"Bubbles"]=d.attributes[b].expando===false}}d=null})();return a});

@@ -1,0 +1,1 @@
+define(["../core","./support","../selector","../css"],function(b,a){b.expr.filters.hidden=function(c){return c.offsetWidth<=0&&c.offsetHeight<=0||(!a.reliableHiddenOffsets()&&((c.style&&c.style.display)||b.css(c,"display"))==="none")};b.expr.filters.visible=function(c){return !b.expr.filters.hidden(c)}});

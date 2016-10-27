@@ -1,0 +1,1 @@
+define(["image!./software_engineer.png!rel"],function(a){return{init:function(b){a.style.display="block";b.appendChild(a)}}});

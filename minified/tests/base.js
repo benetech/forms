@@ -1,0 +1,1 @@
+require(["chai","jquery","underscore","tests/utils"],function(c,e,d,b){var a=c.assert;describe("The plugin manager",function(){it("should ignore unknown plugins",function(f){b.init({plugins:["plugin-will-not-be-found"],core:{onReady:function(){a(!this.isPluginEnabled("plugin-will-not-be-found"),"loaded unknown plugin");f()}}})})})});

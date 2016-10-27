@@ -1,0 +1,1 @@
+(function(a){a(function(c){var e=c("../array");var b={RangeError:1,ReferenceError:1,SyntaxError:1,TypeError:1};return function(f){f||(f=b);return function(g){e.forEach(g,function(h){if(h.reason&&f[h.reason.name]){d(h.reason)}})}};function d(f){setTimeout(function(){throw f},0)}})}(typeof define==="function"&&define.amd?define:function(a){module.exports=a(require)}));

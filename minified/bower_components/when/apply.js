@@ -1,0 +1,1 @@
+(function(a){a(function(){var b=Object.prototype.toString;return function(c){return function(d){if(b.call(d)!="[object Array]"){throw new Error("apply called with non-array arg")}return c.apply(null,d)}}})})(typeof define==="function"&&define.amd?define:function(a){module.exports=a(require)});

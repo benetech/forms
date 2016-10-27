@@ -1,0 +1,1 @@
+define(["../core"],function(a){a.acceptData=function(d){var c=a.noData[(d.nodeName+" ").toLowerCase()],b=+d.nodeType||1;return b!==1&&b!==9?false:!c||c!==true&&d.getAttribute("classid")===c};return a.acceptData});
