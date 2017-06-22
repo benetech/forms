@@ -47,7 +47,7 @@ require(['jquery', 'jquery.vellum'], function ($) {
     // the built version is tested correctly
     require.config({
         // handle potential slow free heroku dynos
-        waitSeconds: 60,
+        waitSeconds: 200,
         paths: {
             'static': testBase + 'tests/static',
             'chai': testBase + 'bower_components/chai/chai',
